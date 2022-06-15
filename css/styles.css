@@ -1,0 +1,174 @@
+body{
+    font-family: 'Montserrat';
+}
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+}
+.nav-logo-n{
+    width: 25%;
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+
+h1{
+    font-family: "Montserrat-Black";
+    font-size: 4rem;
+    line-height: 1.5;
+    font-weight: bold;
+    ;
+}
+h2{
+    font-family: "Montserrat-Bold";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+h3{
+    font-family:"Montserrat-Bold";
+}
+
+p{color: #8f8f8f;
+}
+.navbar{
+    padding: 0 0 4.5rem;
+}
+/* navigation bar */
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-weight: bold;
+    font-size: 2.5rem;
+    padding-right: 100px;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-item{
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+/* download-btn */
+.download-btn{
+    margin: 5% 3% 5% 0;
+}
+/* title-image */
+.title-image{
+    width: 23%;
+    transform: rotate(25deg);
+    position: absolute;
+}
+
+/* icons */
+#features{
+    padding: 7% 20%;
+    background-color: #fff;
+    position: relative;
+}
+.features-box{
+    text-align: center;
+    padding: 15px;
+}
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover{ 
+    color: #ff4c68;
+    margin-bottom: 1rem;
+}
+/* testimonial section */
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+.testimonial-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+    
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.carousel-item{
+    padding: 7% 20%;
+}
+
+/* pricing section */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+    
+}
+.pricing-column {
+    font-family:"Montserrat-Bold";
+    padding: 3% 2%;
+}
+
+#cta{
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: center;
+}
+#cta{
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: center;
+}
+
+.cta-heading{
+    font-family:"Montserrat-Bold";
+    padding: 5% 20% 0 20% ;
+    font-size: 4rem;
+    line-height: 1.5;
+}
+
+#footer{
+    padding: 5% 20% ;
+    text-align: center;
+    
+}
+.footer-logo{
+    margin: 15px;
+}
+.footer-paragraphe{
+    margin: 15px;
+}
+
+
+@media(max-width:1131px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image{
+        position: static;
+        width: 60%;
+        right: 35%
+        
+    }
+
+}
+@media(max-width:1028px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image{
+        transform: rotate(0);
+        position: static;
+        width: 60%;
+    }
+
+
+}
+
